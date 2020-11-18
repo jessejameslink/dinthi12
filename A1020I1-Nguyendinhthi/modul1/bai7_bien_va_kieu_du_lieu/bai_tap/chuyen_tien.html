@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="demo.css" />
+
+</head>
+<body>
+<form>
+	<div class="login">
+	<h2>Amount</h2>
+	<input type="text" id="number" placeholder="nhập số tiền cần đổi"><br>
+	<h2>From currency</h2>
+	<select id="no1">
+			<option value=""> -- Chọn -- 
+			</option>
+			<option>usd</option>
+			<option>vnd</option>
+	</select><br>
+	<h2>To currency</h2>
+	<select id="no2">
+			<option value=""> -- Chọn -- 
+			</option>
+			<option>usd</option>
+			<option>vnd</option>
+	</select><br>
+	<br><input type="button" value="Convert" onclick="abc()" />
+	</div>
+<script type="text/javascript">
+	var a;
+	function abc() {
+	var so1 = document.getElementById("number").value;
+	let ntien = parseInt(so1);
+	var so2 = document.getElementById("no1").value;
+	var so3 = document.getElementById("no2").value;
+	if (so2 === "usd" && so3 ==="vnd" ) {
+		console.log(a = ntien*22000);
+	} 
+	if(so2 ==="vnd" && so3 ==="usd")
+	{
+		console.log(a = ntien/22000);
+	}
+	if (so2 ==="usd" && so3 ==="usd") {
+		console.log(a = ntien);
+	}
+	if (so2 ==="vnd" && so3 ==="vnd") {
+		console.log(a = ntien);
+	}
+}
+</script>
+
+</form>
+</body>
+</html>
