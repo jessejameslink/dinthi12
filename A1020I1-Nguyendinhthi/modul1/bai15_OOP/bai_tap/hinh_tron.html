@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas class="myclass" width="1000" height="500"></canvas>
+ <script>
+
+     let canavas = document.getElementById("myclass");
+     let context = canavas.getContext("2d");
+     class hinh_tron{
+         constructor(ban_kinh) {
+             this.ban_kinh = ban_kinh;
+         }
+         dientich(){
+             return console.log("dien tich hinh tron: "+ ban_kinhhinh_tron*ban_kinhhinh_tron*3.14);
+         }
+         canavas(){
+             let canavas = document.getElementById("myclass");
+             let context = canavas.getContext("2d");
+             context.beginPath();
+             // rect (x, y, width, height)
+             context.arc(200,200,this.ban_kinhh);
+             context.stroke();
+             context.fillStyle = "red";
+             context.fill();
+     }
+
+     }
+     let ban_kinhhinh_tron = prompt("nhap ban kinh hinh tron");
+     let objhinh_tron= new hinh_tron(ban_kinhhinh_tron);
+     objhinh_tron.dientich();
+     objhinh_tron.canavas();
+
+
+ </script>
+</body>
+</html>

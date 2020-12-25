@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //viết một lớp các đối tượng mô tả loại dữ liệu nhiệt độ lấy tên là Temperature. Các thông số mô tả cho nhiệt độ gồm:
+    //
+    // Trị số tính theo đơn vị độ C (giá trị nhỏ nhất -273 độ)
+    //
+    //Có tính năng chuyển đổi từ độ C sang độ F.
+    //
+    //Có tính năng chuyển đổi từ độ C sang độ Kenvin.
+    //
+    //     Sử dụng lớp vừa định nghĩa để xây dựng một chương trình JavaScript với kịch bản như sau:
+    //
+    //     Khởi tạo một đối tượng Temperature.
+    //
+    //     Gán giá trị độ C cho đối tượng ở nhiệt độ 25 độ.
+    //
+    //     Hiển thị ra màn hình nhiệt độ F và độ Kenvin tương ứng.
+class chuyen_doi_do {
+    constructor(tri_so) {
+        this.tri_so = tri_so;
+        // this.doC_doF = doC_doF;
+        // this.doC_doK = doC_doK;
+    }
+    //check do C co nho hon -273 do ko
+    check() {
+        if (tri_so < -273) {
+            alert("sai do C");
+        }
+    }
+    //chuyen doi do C sang do F
+    chuyendoiCsangF(){
+
+        let f = 1.8 * this.tri_so + 32;
+        console.log(f);
+    }
+    //chuyen doi do C sang do K
+    chuyendoiCsangK(){
+        let K = this.tri_so +273;
+        console.log(K);
+    }
+}
+let x = parseInt(prompt("nhap do C: "));
+let objchuyen_doi_do = new chuyen_doi_do(x);
+objchuyen_doi_do.chuyendoiCsangF();
+objchuyen_doi_do.chuyendoiCsangK();
+</script>
+</body>
+</html>

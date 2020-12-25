@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Name;
+    let CMND;
+    let Birthday;
+    let Email;
+    let Address;
+    let TypeCustomer;
+    let TypeSerice;
+    let TypeRoom;
+    let Discount;
+    let QuantityIncluded;
+    let NumberOfRentalDays;
+    let tooday;
+    Name = "Lol";
+    CMND = 201988212;
+    Birthday = 9112000;
+    Address = "avc";
+    Email = "dă@abc.com";
+    TypeCustomer = "vip";
+    TypeSerice = "villa";
+    Discount = 10;
+    NumberOfRentalDays = 7;
+    QuantityIncluded = 10;
+    TypeRoom = "member";
+    let chosse =parseInt(prompt("1.Show information customer"+"\n2.Edit information customer"+"\n3.Show the amount to be paid after discount"
+    ));
+    switch (chosse) {
+        case 1:{
+            alert("Name: "+ Name+"\n"
+                +"CMND: "+ CMND +"\n"
+                +"Birthday: "+ Birthday+"\n"
+                +"Address: "+ Address +"\n"
+                +"Email: "+ Email +"\n"
+                +"Discount: "+ Discount +"\n"
+                +"Typecustomer: "+ TypeCustomer +"\n"
+                +"Typeserice: "+ TypeSerice +"\n"
+                +"Typeroom: "+ TypeRoom +"\n"
+                +"Rentaldays: "+ NumberOfRentalDays +"\n"
+                +"Quantityincluded: "+ QuantityIncluded +"\n")
+                break;
+        }
+        default: {
+            alert("các lựa chọn không nằm trong menu");
+        }
+
+        case 2:{
+            let chooseedit =parseInt(prompt(("1.Name: "+ Name+"\n"
+                +"2.CMND: "+ CMND +"\n"
+                +"3.Birthday: "+ Birthday+"\n"
+                +"4.Address: "+ Address +"\n"
+                +"5.Email: "+ Email +"\n"
+                +"6.Discount: "+ Discount +"\n"
+                +"7.Typecustomer: "+ TypeCustomer +"\n"
+                +"8.Typeserice: "+ TypeSerice +"\n"
+                +"9.Typeroom: "+ TypeRoom +"\n"
+                +"10.Rentaldays: "+ NumberOfRentalDays +"\n"
+                +"11.Quantityincluded: "+ QuantityIncluded +"\n")
+
+            ))
+            switch(chooseedit){
+                case 1:{
+                    Name = prompt("Edit name");
+                    break;
+                }
+                case 2:{
+                    CMND = prompt("Edit CMND");
+                    break;
+                }case 3:{
+                    Birthday = prompt("Edit Birthday");
+                    break;
+                }case 4:{
+                    Address = prompt("Edit addres");
+                    break;
+                }case 5:{
+                    Email = prompt("Edit email");
+                    break;
+                }case 6:{
+                    Discount = prompt("Edit discount");
+                    break;
+                }case 7:{
+                    TypeCustomer = prompt("Edit typecustomer");
+                    break;
+                }case 8:{
+                    TypeSerice = prompt("Edit typeserice");
+                    break;
+                }case 9:{
+                    TypeRoom = prompt("Edit typeroom");
+                    break;
+                }case 10:{
+                    NumberOfRentalDays = parseInt(prompt("Edit rentaldays"));
+                    break;
+                }case 11:{
+                    QuantityIncluded = prompt("Edit QuantityIncluded");
+                break;
+            }
+            default: {
+                alert("failed");
+                break;
+            }
+            }
+            alert("Name: "+ Name+"\n"
+                +"CMND: "+ CMND +"\n"
+                +"Birthday: "+ Birthday+"\n"
+                +"Address: "+ Address +"\n"
+                +"Email: "+ Email +"\n"
+                +"Discount: "+ Discount +"\n"
+                +"Typecustomer: "+ TypeCustomer +"\n"
+                +"Typeserice: "+ TypeSerice +"\n"
+                +"Typeroom: "+ TypeRoom +"\n"
+                +"Rentaldays: "+ NumberOfRentalDays +"\n"
+                +"Quantityincluded: "+ QuantityIncluded +"\n")
+            break;
+        }
+        case 3: {
+            let money = 0;
+            if (TypeSerice === "villa" || TypeSerice==="Villa"){
+                money = 500;
+            }else if (TypeSerice ==="house" || TypeSerice==="House"){
+                money = 300;
+            }else if (TypeSerice==="room"|| TypeSerice==="Room"){
+                money = 100;
+            }
+            let discountt = 0;
+            if (Address === "đà nẵng"){
+                discountt +=20;
+            }else if (Address === "huế"){
+                discountt +=10;
+            }else if (Address === "quãng nam"){
+                discountt +=5;
+            }
+            if (NumberOfRentalDays >7){
+                discountt += 30;
+            }else if (NumberOfRentalDays >5){
+                discountt += 20;
+            }else if (NumberOfRentalDays>2){
+                discountt +=10;
+            }
+            alert("total pay: " + (money*NumberOfRentalDays-discountt));
+            break;
+}
+    }
+</script>
+</body>
+</html>

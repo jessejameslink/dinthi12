@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrlistcustomer = [];
+function dispalayMainMenu() {
+    let choose = parseInt(prompt("1.Add new customer" + "\n" + "2.Display information customer" + "\n" + "" +
+        "3.Edit infomation customer" + "\n" + "4.Delete customer" + "\n" + "5.Exit"));
+
+    switch (choose) {
+        case 1: {
+            addnewcustomer();
+            break;
+        }
+        case 2: {
+            displaycustomer();
+            break;
+        }
+        case 3: {
+            editcustomer();
+            break;
+        }
+        case 4: {
+            deletecustomer();
+            break;
+        }
+        case 5: {
+            break;
+        }
+        default: {
+            alert("faled!")
+        }
+    }
+}
+function deletecustomer() {
+    let  temp ="";
+    for (let i = 0; i<arrlistcustomer.length;i++){
+        temp+=i+".name: "+arrlistcustomer[i][0]+"\n";
+    }
+    let choosedelete = parseInt(prompt(temp));
+    let check =parseInt(prompt("Are you want you delete customer?"+"\n1.yes 2.No"));
+    if(check === 1){
+        arrlistcustomer.splice(choosedelete,1);
+        alert("Delete successfully!");
+    } else {
+        alert("Cancel!");
+    }
+    dispalayMainMenu();
+}
+
+function editcustomer() {
+    let  temp ="";
+    for (let i = 0; i<arrlistcustomer.length;i++){
+        temp+=i+".name: "+arrlistcustomer[i][0]+"\n";
+    }
+    let choosedisplay = parseInt(prompt(temp));
+    let chooseedit =parseInt(prompt(("1.Name: "+arrlistcustomer[choosedisplay][0]+"\n"
+        +"2.CMND: "+ arrlistcustomer[choosedisplay][1] +"\n"
+        +"3.Birthday: "+ arrlistcustomer[choosedisplay][2]+"\n"
+        +"4.Address: "+ arrlistcustomer[choosedisplay][3] +"\n"
+        +"5.Email: "+ arrlistcustomer[choosedisplay][4] +"\n"
+        +"6.Discount: "+ arrlistcustomer[choosedisplay] [5] +"\n"
+        +"7.Typecustomer: "+ arrlistcustomer[choosedisplay][6] +"\n"
+        +"8.Typeserice: "+ arrlistcustomer[choosedisplay][7] +"\n"
+        +"9.Typeroom: "+ arrlistcustomer[choosedisplay][8] +"\n"
+        +"10.Rentaldays: "+ arrlistcustomer[choosedisplay][9] +"\n"
+        +"11.Quantityincluded: "+ arrlistcustomer[choosedisplay][10] +"\n")
+    ));
+    switch(chooseedit){
+        case 1:{
+            arrlistcustomer[choosedisplay][0] = prompt("Enter name: ");
+            break;
+        }
+        case 2:{
+            arrlistcustomer[choosedisplay][1] = prompt("Enter CMND: ");
+            break;
+        }
+        case 3:{
+            arrlistcustomer[choosedisplay][2] = prompt("Enter Birthday: ");
+            break;
+        }
+        case 4:{
+            arrlistcustomer[choosedisplay][3] = prompt("Enter Address: ");
+            break;
+        }
+        case 5:{
+            arrlistcustomer[choosedisplay][4] = prompt("Enter Email: ");
+            break;
+        }
+        case 6:{
+            arrlistcustomer[choosedisplay][5] = prompt("Enter Discount: ");
+            break;
+        }
+        case 7:{
+            arrlistcustomer[choosedisplay][6] = prompt("Enter Typecustomer: ");
+            break;
+        }
+        case 8:{
+            arrlistcustomer[choosedisplay][7] = prompt("Enter Typeserice: ");
+            break;
+        }
+        case 9:{
+            arrlistcustomer[choosedisplay][8] = prompt("Enter Typeroom: ");
+            break;
+        }
+        case 10:{
+            arrlistcustomer[choosedisplay][9] = prompt("Enter Rentaldays: ");
+            break;
+        }
+        case 11:{
+            arrlistcustomer[choosedisplay][10] = prompt("Enter Quantityincluded: ");
+            break;
+        }
+        default:{
+            alert("failed");
+        }
+    }
+    editcustomer();
+}
+function displaycustomer() {
+    let  temp ="";
+    for (let i = 0; i<arrlistcustomer.length;i++){
+        temp+=i+".name: "+arrlistcustomer[i][0]+"\n";
+    }
+    let choosedisplay = parseInt(prompt(temp));
+    alert("Name: "+ arrlistcustomer[choosedisplay][0]+"\n"
+        +"CMND: "+ arrlistcustomer[choosedisplay][1] +"\n"
+        +"Birthday: "+ arrlistcustomer[choosedisplay][2]+"\n"
+        +"Address: "+ arrlistcustomer[choosedisplay][3] +"\n"
+        +"Email: "+ arrlistcustomer[choosedisplay][4] +"\n"
+        +"Discount: "+ arrlistcustomer[choosedisplay][5] +"\n"
+        +"Typecustomer: "+ arrlistcustomer[choosedisplay][6] +"\n"
+        +"Typeserice: "+ arrlistcustomer[choosedisplay][7] +"\n"
+        +"Typeroom: "+ arrlistcustomer[choosedisplay][8] +"\n"
+        +"Rentaldays: "+ arrlistcustomer[choosedisplay][9] +"\n"
+        +"Quantityincluded: "+ arrlistcustomer[choosedisplay][10] +"\n")
+}
+function addnewcustomer() {
+    let infocus = [];
+    let   name = prompt("Input name:");
+    let   cmnd = prompt("Input CMND:");
+    let   birthday = prompt("Input birthday:");
+    let  email = prompt("Input Email:");
+    let   address = prompt("input address:");
+    let   typeCustomer = prompt("Input typecustomer:");
+    let  typeRoom = prompt("input typeroom:");
+    let   typeSerice = prompt("input typeserice:");
+    let  discount = prompt("input discount:");
+    let  quantityIncluded = prompt("input quantityinclued:");
+    let numberOfRentalDays = prompt("rentaldays:");
+
+    infocus.push(name);
+    infocus.push(cmnd);
+    infocus.push(birthday);
+    infocus.push(email);
+    infocus.push(address);
+    infocus.push(typeCustomer);
+    infocus.push(typeRoom);
+    infocus.push(typeSerice);
+    infocus.push(discount);
+    infocus.push(quantityIncluded);
+    infocus.push(numberOfRentalDays);
+
+    arrlistcustomer.push(infocus);
+
+    alert("you have successfully added.");
+    dispalayMainMenu();
+}
+dispalayMainMenu();
+</script>
+</body>
+</html>

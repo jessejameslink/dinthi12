@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrcustomer = [];
+    while (true) {
+        let chose = parseInt(prompt("1.Add new customer" + "\n" + "2.Delete customer"));
+        switch (chose) {
+            case 1: {
+                let number =parseInt(prompt("Enter number customer you want add to arr: "));
+                for (let i = 0; i < number; i++) {
+                    let namercustomer = prompt("Enter name of customer: ");
+                    arrcustomer.push(namercustomer);
+                }
+                let result = "";
+                arrcustomer.sort();
+                for (let i = 0; i < arrcustomer.length; i++) {
+                    result += (i + 1) + "." + arrcustomer[i] + "\n";
+                }
+                alert(result);
+                break;
+            }
+            case 2:{
+                let check = false;
+                let namercustomer = prompt("Enter customer you want delete: ");
+                for (let i = 0; i<arrcustomer.length;i++){
+                    if (arrcustomer[i]===namercustomer){
+                        arrcustomer.splice(i,1);
+                        check = true;
+                    }
+                }
+                if (!check){
+                    alert("Not name in arr!");
+                }
+                let result = "";
+                arrcustomer.sort();
+                for (let i = 0; i < arrcustomer.length; i++) {
+                    result += (i + 1) + "." + arrcustomer[i] + "\n";
+                }
+                alert(result);
+                break;
+            }
+            default: {
+                alert("failed!");
+            }
+        }
+    }
+</script>
+</body>
+</html>
