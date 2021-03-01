@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function showInput() {
+            document.getElementById("textHidden").style.display = "block";
+            document.getElementById("abc").style.display = "block";
+        }
+        function showText() {
+              x = document.getElementById("abc");
+            document.getElementById("abc").innerHTML = 'Maximum of 250 characters.';
+        }
+        function hiddenInput() {
+            document.getElementById("textHidden").style.display ="none";
+            document.getElementById("abc").style.display = "none";
+        }
+
+    </script>
+</head>
+<body>
+<h2>Market Research Survey</h2>
+<h5>Please take a few moments to complete this satisfaction survey</h5>
+<form>
+    <p>What is your age range?</p>
+    <select id="class">
+        <option value="18-24">       18-24       </option>
+        <option value="25-34">       25-34       </option>
+        <option value="35-50">       35-50       </option>
+        <option value="+50">       +50       </option>
+    </select>
+    <p>What is your yearly income range?</p>
+    <select id="range">
+        <option value="$0-$25,000">$0-$25,000</option>
+        <option value="$25,001-$50,000">$25,001-$50,000</option>
+        <option value="$50,001-$100,000">$50,001-$100,000</option>
+        <option value="$100,000">$100,000</option>
+    </select>
+    <p>Gender ldentity</p>
+    Male <input type="radio" name="gender" value="Male" onclick="hiddenInput()"><br>
+    Female <input type="radio" name="gender" value="Female" onclick="hiddenInput()"><br>
+    Other <input type="radio" name="gender" value="Other" onclick="showInput();showText();">
+    <input type="text" hidden id="textHidden">
+    <p id="abc"></p>
+    <p>Which of the following products have your purchased in the last 2 months. Please check all that apply</p>
+    Product1 <input type="checkbox">
+    Product2 <input type="checkbox">
+    Product3 <input type="checkbox">
+    <p>How often would you use our new product?</p>
+    Daily <input type="radio" name="use">
+    Weekly <input type="radio" name="use">
+    Monthly <input type="radio" name="use">
+</form>
+</body>
+</html>
