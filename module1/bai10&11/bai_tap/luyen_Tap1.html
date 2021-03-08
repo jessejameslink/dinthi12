@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //bai1
+        // for (let i = 0; i < 100; i++) {
+        //     console.log(i);
+        //     if (i == 99) {
+        //         console.log("hoàn thành");
+        //     }
+        // }
+        //bai3&4
+        // let a = 0;
+        // let b = 1;
+        // result = b;
+        // for (let i = 0; i < 20; i++) {
+        //     result = a + b;
+        //     a = b;
+        //     b = result;
+        //     if (result % 5 == 0) {
+        //         console.log(result);
+        //         break;
+        //     }
+        // }
+
+        //bai5
+        // let sum = 0;
+        // let num = prompt("nhập số lượng số n");
+        // let num2 = prompt("nhập số cần chia hết");
+        // for (let i = 0; i < num; i++) {
+        //     if (i % num2 == 0) {
+        //         sum += i;
+        //     }
+        // }
+        // console.log(sum);
+
+        //bai7
+        for (let i = 0; i < 100; i++) {
+            if (i % 3 == 0 && i % 5 == 0) {
+                console.log("fizzbuzz")
+            } else if (i % 3 == 0) {
+                console.log("fizz");
+
+            } else if (i % 5 == 0) {
+                console.log("buzz");
+            }
+            console.log(i);
+        }
+    </script>
+</body>
+
+</html>
