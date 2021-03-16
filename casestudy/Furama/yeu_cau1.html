@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        Name:<br>
+        <input type="text" id="txname">
+        <br> ID:
+        <br>
+        <input type="number" id="txiD">
+        <br> Birthday:
+        <br>
+        <input type="date" id="txbirthDay">
+        <br> Email:
+        <br>
+        <input type="email" id="txemail">
+        <br> Dress:
+        <br>
+        <input type="text" id="txdress">
+        <br> Customer:
+        <br>
+        <select id="txcustomer">  
+            <option>Diamond</option>
+            <option>Platimum</option>
+            <option>Gold</option>
+            <option>SIlver</option>
+            <option>Member</option>
+        </select>
+        <br> Discount:
+        <br>
+        <input type="number" id="txdiscount">
+        <br> quantity included:
+        <br>
+        <input type="number" id="txquantity">
+        <br> Rentdays:
+        <br>
+        <input type="number" id="txrentDay">
+        <br> Service:
+        <br>
+        <select id="txservice">  
+            <option value="1">Villa</option>
+            <option value="2">House</option>
+            <option value="3" >Room</option>
+        </select>
+        <br> Rentroom:
+        <br>
+        <select id="txrentRoom">  
+            <option>Vip</option>
+            <option>Business</option>
+            <option>Normal</option>
+        </select>
+        <br>
+        <br>
+        <button onclick="show()" ,>confirm </button>
+
+        <input type="reset" name="reset" value="reset">
+    </form>
+    <script>
+        function show() {
+            var name = document.getElementById("txname").value;
+            var id = document.getElementById("txiD").value;
+            var birthDay = document.getElementById("txbirthDay").value;
+            var email = document.getElementById("txemail").value;
+            var dress = document.getElementById("txdress").value;
+            var customer = document.getElementById("txcustomer").value;
+            var discount = document.getElementById("txdiscount").value;
+            var quatity = document.getElementById("txquantity").value;
+            var rentDay = document.getElementById("txrentDay").value;
+            var service = document.getElementById("txservice").value;
+            var rentRoom = document.getElementById("txrentRoom").value;
+
+            alert(name + "\n" + id + "\n" + birthDay +
+                "\n" + email + "\n" + dress + "\n" + customer + "\n" + discount +
+                +"\n" + quatity + "\n" + rentDay + "\n" + service + "\n" + rentRoom);
+            let a = confirm("xem giá của bạn");
+            if (service === "1") {
+                let gia = 500 * parseInt(rentDay) * (1 - discount / 100);
+                alert(gia);
+            } else if (service === "2") {
+                let gia = 300 * parseInt(rentDay) * (1 - discount / 100);
+                alert(gia);
+            } else if (service === "3") {
+                let gia = 100 * parseInt(rentDay) * (1 - discount / 100);
+                alert(gia);
+            }
+
+        }
+        // tất cả info trong form đều là chuỗi
+        // var value = document.getElementById("txservice").value; //lấy value của service
+    </script>
+</body>
+
+</html>

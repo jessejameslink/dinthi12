@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //bai1
+        /*lập mảng cho người dùng nhập */
+        // let n = prompt("nhập số lượng phần tử");
+        // let info = Array();
+
+        // for (let i = 0; i <= n; i++) {
+        //     info[i] = prompt("phần tử thứ " + i)
+        // }
+        // console.log(info);
+
+        // let arr = [1, 2, 3];
+        // let arr2 = [];
+        // arr2[0] = arr[0];
+        // for (let i = 1; i < 3; i++) {
+        //     arr2[i] = arr2[i - 1] + arr[i];
+        // }
+        // console.log(arr2);
+
+        //bài 2
+        // let arr = [7, 2, 5, 3, 5, 3];
+        // let arr2 = [7, 2, 5, 4, 6, 3, 5, 3];
+
+        // function check(arr, arr2) {
+        //     let cout = 0;
+        //     for (let i = 0; i < arr2.length; i++) {
+        //         for (let j = 0; j < arr.length; j++) {
+        //             if (arr[j] == arr2[i]) {
+        //                 arr.splice(j, 1);
+        //                 arr2.splice(i, 1);
+        //                 i--;
+        //                 j--;
+        //                 break;
+        //                 // console.log(arr[j]);
+        //             }
+        //         }
+        //     }
+        //     console.log(arr2)
+        // }
+        // check(arr, arr2);
+        //bài 3
+        // let n = prompt("nhập số lượng phần tử");
+        // let arr1 = Array();
+
+        // for (var i = 0; i < n; i++) {
+        //     arr1[i] = prompt("phần tử thứ " + i);
+        // }
+        // console.log(arr1);
+        // let n1 = prompt("nhập số lượng phần tử");
+        // let arr2 = Array();
+
+        // for (var j = 0; j < n1; j++) {
+        //     arr2[j] = prompt("phần tử thứ " + j)
+        // }
+        // console.log(arr2);
+        // if (!(n === n1)) {
+        //     alert("not found");
+        // } else {
+        //     //c1:
+        //     max = arr1[0] / arr2[0];
+        //     for (let k = 1; k < n; k++) {
+        //         if (max < arr1[k] / arr2[k]) {
+        //             max = (arr1[k] / arr2[k]);
+        //         }
+        //     }
+        //     console.log(max);
+        // }
+
+
+        //bai4
+        let string = prompt("nhap so");
+        // let string = "avc";
+        let cout = "";
+        for (let i = 0; i < string.length; i++) {
+            if (string.charAt(i) == 1) {
+
+                cout += "mot ";
+            } else if (string.charAt(i) == 2) {
+
+                cout += "hai ";
+            } else if (string.charAt(i) == 3) {
+
+                cout += "ba ";
+            } else if (string.charAt(i) == 4) {
+                cout += "bon ";
+
+            } else if (string.charAt(i) == 5) {
+
+                cout += "nam ";
+            } else if (string.charAt(i) == 6) {
+
+                cout += "sau ";
+            } else if (string.charAt(i) == 7) {
+
+                cout += "bay ";
+            } else if (string.charAt(i) == 8) {
+
+                cout += "tam ";
+            } else if (string.charAt(i) == 9) {
+
+                cout += "chin ";
+            }
+        }
+        console.log(cout);
+
+
+
+
+
+        //bai5
+        // let a = confirm("bạn muốn gọi món");
+        // if (true) {
+        //     alert("1.cf" + "\n" + " 2.sữa chua" + "\n" + "3.cam vắt" + "\n" + "4.nước lọc" + "\n" + "5.bánh mỳ" + "\n" + "6.thoát");
+        //     var nhap = parseInt(prompt("nhập số bạn muốn"));
+        // }
+        // switch (nhap) {
+        //     case 1:
+        //         {
+        //             alert("giá của cf là 10.000");
+        //             let soluong = parseInt(prompt("nhập số lượng"));
+        //             let sum = soluong * 10000;
+        //             alert(sum);
+        //             let seen = confirm("bạn có muốn oder thêm? ");
+        //             break;
+        //         }
+        //     case 2:
+        //         {
+        //             alert("giá của sữa chua là 20.000");
+        //             let soluong = parseInt(prompt("nhập số lượng"));
+        //             let sum = soluong * 20000;
+        //             alert(sum);
+        //             let seen = confirm("bạn có muốn oder thêm? ");
+        //             break;
+        //         }
+        //     case 3:
+        //         {
+        //             alert("giá của nước cam là 30.000");
+        //             let soluong = parseInt(prompt("nhập số lượng"));
+        //             let sum = soluong * 30000;
+        //             alert(sum);
+        //             let seen = confirm("bạn có muốn oder thêm? ");
+        //             break;
+        //         }
+        //     case 4:
+        //         {
+        //             alert("giá của nước loc là 5000");
+        //             let soluong = parseInt(prompt("nhập số lượng"));
+        //             let sum = soluong * 5000;
+        //             alert(sum);
+        //             let seen = confirm("bạn có muốn oder thêm? ");
+        //             break;
+        //         }
+        //     case 5:
+        //         {
+        //             alert("giá của bánh mỳ là 12.000");
+        //             let soluong = parseInt(prompt("nhập số lượng"));
+        //             let sum = soluong * 12000;
+        //             alert(sum);
+        //             let seen = confirm("bạn có muốn oder thêm? ");
+        //             break;
+        //         }
+        //     case 6:
+        //         {
+        //             break;
+        //         }
+        //     default:
+        //         {
+        //             alert("ký tự bạn nhập không đúng!")
+        //         }
+
+        // }
+    </script>
+</body>
+
+</html>

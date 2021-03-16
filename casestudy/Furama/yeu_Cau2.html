@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        Name:<br>
+        <input type="text" id="txname">
+        <br> ID:
+        <br>
+        <input type="number" id="txiD">
+        <br> Birthday:
+        <br>
+        <input type="date" id="txbirthDay">
+        <br> Email:
+        <br>
+        <input type="email" id="txemail">
+        <br> Dress:
+        <br>
+        <input type="text" id="txdress">
+        <br> Customer:
+        <br>
+        <select id="txcustomer">  
+        <option value="1">Diamond</option>
+        <option value="2">Platimum</option>
+        <option value="3">Gold</option>
+        <option value="4">SIlver</option>
+        <option value="5">Member</option>
+    </select>
+        <br> Discount:
+        <br>
+        <input type="number" id="txdiscount">
+        <br> quantity included:
+        <br>
+        <input type="number" id="txquantity">
+        <br> Rentdays:
+        <br>
+        <input type="number" id="txrentDay">
+        <br> Service:
+        <br>
+        <select id="txservice">  
+        <option value="1">Villa</option>
+        <option value="2">House</option>
+        <option value="3" >Room</option>
+    </select>
+        <br> Rentroom:
+        <br>
+        <select id="txrentRoom">  
+        <option>Vip</option>
+        <option>Business</option>
+        <option>Normal</option>
+    </select>
+        <br>
+        <br>
+        <button onclick="show()" ,>confirm </button>
+
+        <input type="reset" name="reset" value="reset">
+    </form>
+    <script>
+        function show() {
+            var name = document.getElementById("txname").value;
+            var id = document.getElementById("txiD").value;
+            var birthDay = document.getElementById("txbirthDay").value;
+            var email = document.getElementById("txemail").value;
+            var dress = document.getElementById("txdress").value;
+            var customer = document.getElementById("txcustomer").value;
+            var discount = document.getElementById("txdiscount").value;
+            var quatity = document.getElementById("txquantity").value;
+            var rentDay = document.getElementById("txrentDay").value;
+            var service = document.getElementById("txservice").value;
+            var rentRoom = document.getElementById("txrentRoom").value;
+            let breakWhile = false;
+            while (true) {
+                let a = prompt("1.show \n 2.edit \n 3.show the amount \n 4.exit");
+                switch (a) {
+                    case "1":
+                        {
+                            alert(name + "\n" + id + "\n" + birthDay +
+                                "\n" + email + "\n" + dress + "\n" + customer + "\n" + discount +
+                                +"\n" + quatity + "\n" + rentDay + "\n" + service + "\n" + rentRoom);
+                        }
+                        break;
+                    case "2":
+                        {
+                            let edit = prompt("1.name:" + name + "\n" + "2.ID: " + id + "\n" + "3.Birthday:" + birthDay +
+                                "\n" + "4.Email:" + email + "\n" + "5.Dress:" + dress + "\n" + "6.Customer:" + customer + "\n" + "7.Discount:" + discount +
+                                "\n" + "8.Quatity:" + quatity + "\n" + "9.Rentday:" + rentDay + "\n" + "10.Service:" + service + "\n" + "11.Rentroom:" + rentRoom);
+                            switch (edit) {
+                                case "1":
+                                    {
+                                        name = prompt("Enter name");
+                                        break;
+                                    }
+                                case "2":
+                                    {
+                                        id = prompt("Enter ID");
+                                        break;
+                                    }
+                                case "3":
+                                    {
+                                        birthDay = prompt("Enter birthday");
+                                        break;
+                                    }
+                                case "4":
+                                    {
+                                        email = prompt("Enter email");
+                                        break;
+                                    }
+                                case "5":
+                                    {
+                                        dress = prompt("Enter dress");
+                                        break;
+                                    }
+                                case "6":
+                                    {
+                                        customer = prompt("Enter customer");
+                                        break;
+                                    }
+                                case "7":
+                                    {
+                                        discount = prompt("Enter discount");
+                                        break;
+                                    }
+                                case "8":
+                                    {
+                                        quatity = prompt("Enter quatity");
+                                        break;
+                                    }
+                                case "9":
+                                    {
+                                        rentDay = prompt("Enter rentday");
+                                        break;
+                                    }
+                                case "10":
+                                    {
+                                        service = prompt("Enter service");
+                                        break;
+                                    }
+                                case "11":
+                                    {
+                                        rentRoom = prompt("Enter rentroom");
+                                        break;
+                                    }
+                                default:
+                                    {
+                                        alert("Not value found");
+                                    }
+
+                            }
+                            alert(name + "\n" + id + "\n" + birthDay +
+                                "\n" + email + "\n" + dress + "\n" + customer + "\n" + discount +
+                                +"\n" + quatity + "\n" + rentDay + "\n" + service + "\n" + rentRoom);
+                        }
+                        break;
+                    case "3":
+                        {
+                            discount = 0;
+                            if (dress == "da nang") {
+                                discount += 20;
+                            } else if (dress == "hue") {
+                                discount += 10;
+                            } else if (dress == "quang nam") {
+                                discount += 5;
+                            }
+                            if (rentDay >= 7) {
+                                discount += 30;
+                            } else if (5 < rentDay < 7) {
+                                discount += 20;
+                            } else if (2 < rentDay <= 5) {
+                                discount += 10;
+                            }
+                            if (customer == "1") {
+                                discount += 15;
+                            } else if (customer == "2") {
+                                discount += 10;
+                            } else if (customer == "3") {
+                                discount += 5;
+                            } else if (customer == "4") {
+                                discount += 2;
+                            } else if (customer == "5") {
+                                discount += 0;
+                            }
+                            if (service == "1") {
+                                let gia = 500 * rentDay - discount;
+                                alert(gia);
+                            } else if (service == "2") {
+                                let gia = 300 * rentDay - discount;
+                                alert(gia);
+                            } else if (service == "3") {
+                                let gia = 100 * rentDay - discount;
+                                alert(gia);
+                            }
+                        }
+                        break;
+                    case "4":
+                        breakWhile = true;
+                        break;
+                    default:
+                        alert("not value found")
+                }
+
+                // document.write(breakWhile);
+                if (breakWhile) {
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

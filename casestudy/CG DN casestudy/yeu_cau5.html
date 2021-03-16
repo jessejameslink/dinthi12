@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //bai1
+        //khai bao mang 2 chieu
+        let arr = [];
+        let check = true;
+        let n = parseInt(prompt("nhap so luong phan tu"));
+        let sum = 0;
+
+        function initArray() {
+            for (let i = 0; i < n; i++) {
+                arr[i] = new Array();
+                for (let j = 0; j < n; j++) {
+                    arr[i][j] = prompt("nhap phan tu " + i + j);
+                }
+            }
+            console.log(arr);
+        }
+        initArray(arr);
+        //sum so chan
+        // for (let b = 0; k < n; k++) {
+        //     for (let a = 0; a < n; a++) {
+        //         if (arr[k][a] % 2 == 0) {
+        //             sum += parseInt(arr[k][a]);
+        //         }
+        //     }
+        // }
+        // console.log(sum);
+
+        //bai2
+        // let cout = 0;
+        // for (let p = 0; p < n; p++) {
+        //     for (let o = 0; o < n; o++) {
+        //         if (arr[p][o] < 2) {
+        //             console.log("false");
+        //         } else {
+        //             for (let check = 2; check <= (arr[p][o] - 1); check++) {
+        //                 if (arr[p][o] % check == 0) {
+        //                     cout++;
+        //                     break;
+        //                 }
+        //             }
+        //         }
+        //     }
+        // }
+        // console.log(cout);
+
+        //bai3
+        let max = arr[0][0];
+        for (let wet = 1; wet < n; wet++) {
+            for (let hig = 1; hig < n; hig++) {
+                if (max < arr[wet][hig]) {
+                    max = arr[wet][hig];
+                }
+            }
+        }
+        console.log(max);
+    </script>
+</body>
+
+</html>
