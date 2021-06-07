@@ -1,6 +1,6 @@
 package b10_DanhSach.LinkedList;
 
-import com.sun.org.apache.bcel.internal.generic.ARETURN;
+
 public class MyLinkedList<E> {
     private Node head = null;
     public void setNumNodes(int numNodes) {
@@ -10,6 +10,7 @@ public class MyLinkedList<E> {
         return numNodes;
     }
     private int numNodes;
+
     public MyLinkedList() {
     }
     public int size() {
@@ -112,6 +113,3 @@ public class MyLinkedList<E> {
         return (E) temp.next.getData();
     }
 }
-
-
-
