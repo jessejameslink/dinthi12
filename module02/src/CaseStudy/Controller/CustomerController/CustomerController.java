@@ -11,8 +11,8 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 enum Gioitinh {
-    NAM("nam"),
-    NU("nu"),
+    NAM("1"),
+    NU("2"),
     OHTER("khac");
     private String line;
 
@@ -55,7 +55,7 @@ public class CustomerController {
             if (validDate(birthDay)) {
                 break;
             } else
-                JOptionPane.showMessageDialog(null, "invalid");
+                System.out.println("enter wrong birthday, please enter again");
         }
         System.out.println("enter gender customer");
         String gender;

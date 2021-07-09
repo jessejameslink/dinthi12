@@ -15,7 +15,7 @@ public class FileCustomer {
     //header
     private static final String FILE_HEADER = "Name, birthday, gender, id, phone, email, type";
 
-    public static void WriteCustomer(ArrayList<Customer> customerArrayList) {
+        public static void WriteCustomer(ArrayList<Customer> customerArrayList) {
         FileWriter fileWriter = null;
         try {
             fileWriter = new FileWriter(FILE_CUSTOMER);

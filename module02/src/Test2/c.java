@@ -1,4 +1,4 @@
 package Test2;
 
-public class c {
+public class c extends b {
 }
