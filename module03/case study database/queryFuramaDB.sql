@@ -96,25 +96,18 @@ and not exists (
     where hd.Ngay_bat_dau between "2019-01-01" and "2019-06-30"
 );
 -- query13 (coi lại)
-create temporary table temp
-select dich_vu_di_kem.*, count(hop_dong_chi_tiet.iddich_vu_di_kem) as so_lan_su_dung
+
+select dich_vu_di_kem.*, count(hop_dong_chi_tiet.iddich_vu_di_kem) as 'Solan'
 from hop_dong_chi_tiet 
 inner join dich_vu_di_kem  on dich_vu_di_kem.iddich_vu_di_kem = hop_dong_chi_tiet.iddich_vu_di_kem
-group by dich_vu_di_kem.Ten_dich_vu;
-select * from temp;
-create temporary table temp1
-select max(so_lan_su_dung)as so_lan_su_dung1,temp.* from temp;
-select * from temp1;
-drop temporary table temp;
-drop temporary table temp1;
---
-select * from dich_vu_di_kem join hop_dong_chi_tiet
-on dich_vu_di_kem.iddich_vu_di_kem = hop_dong_chi_tiet.iddich_vu_di_kem
-where hop_dong_chi_tiet.iddich_vu_di_kem is not null 
-group by  hop_dong_chi_tiet.iddich_vu_di_kem
-having count(hop_dong_chi_tiet.iddich_vu_di_kem) 
->= all (
-    select count(idhop_dong_chi_tiet) from hop_dong_chi_tiet group by iddich_vu_di_kem
+group by dich_vu_di_kem.Ten_dich_vu
+having count(hop_dong_chi_tiet.iddich_vu_di_kem) = (
+select  count(hop_dong_chi_tiet.iddich_vu_di_kem) 
+from hop_dong_chi_tiet 
+inner join dich_vu_di_kem  on dich_vu_di_kem.iddich_vu_di_kem = hop_dong_chi_tiet.iddich_vu_di_kem
+group by dich_vu_di_kem.Ten_dich_vu
+order by count(hop_dong_chi_tiet.iddich_vu_di_kem) desc
+limit 1
 );
 -- query14
 select hop_dong.idhop_dong,loai_dich_vu.Ten_loai_dich_vu,dich_vu_di_kem.Ten_dich_vu,count(hop_dong_chi_tiet.iddich_vu_di_kem) as 'SoLanSuDung' from hop_dong
@@ -133,10 +126,11 @@ inner join bo_phan on bo_phan.idbo_phan = nhan_vien.idbo_phan
  group by nhan_vien.idnhan_vien
  having soLan >=4;
  -- query16
-  delete from nhan_vien where not exists(
+  delete from nhan_vien where exists(
 	select nhan_vien.idnhan_vien
     from hop_dong
-    where hop_dong.Ngay_bat_dau between "2017-01-01" and "2019-12-31" and hop_dong.idnhan_vien=nhan_vien.idnhan_vien
+    inner join nhan_vien on nhan_vien.idnhan_vien = hop_dong.idnhan_vien
+where hop_dong.Ngay_bat_dau between "2017-01-01" and "2019-12-31"  and nhan_vien.idvi_tri = 'Lễ tân'
  );
   -- query17
   update khach_hang
@@ -145,14 +139,32 @@ inner join hop_dong HD on HD.idkhach_hang = khach_hang.idkhach_hang
 set khach_hang.idloai_khach="Diamond"
 where (LK.Ten_loai_khach ="Platinium") and (year(HD.Ngay_bat_dau)=2019) and (HD.tong_tien>10000);
   -- query18
-SET SQL_SAFE_UPDATES = 0;
 delete from khach_hang
 where idloai_khach in (
 select idloai_khach
 from hop_dong
 where year(Ngay_bat_dau) <= 2016);
-SET SQL_SAFE_UPDATES = 1;
   -- query19
+update dich_vu_di_kem
+set dich_vu_di_kem.gia=dich_vu_di_kem.gia*2
+where exists (
+select dich_vu_di_kem.ten_dich_vu_di_kem from hop_dong_chi_tiet
+inner join hop_dong_chi_tiet HDCT on HDCT.id_dich_vu_di_kem = dich_vu_di_kem.id_dich_vu_di_kem
+inner join hop_dong on hop_dong.id_hop_dong = HDCT.id_hop_dong
+where hop_dong_chi_tiet.iddich_vu_di_kem = dich_vu_di_kem.iddich_vu_di_kem and year(hop_dong.Ngay_bat_dau)=2019
+group by dich_vu_di_kem.iddich_vu_di_kem
+having count(hop_dong_chi_tiet.iddich_vu_di_kem) >1
+);
+-- in
+update dich_vu_di_kem
+set dich_vu_di_kem.gia=dich_vu_di_kem.gia*2
+where dich_vu_di_kem.iddich_vu_di_kem in (
+	select hop_dong_chi_tiet.iddich_vu_di_kem from hop_dong_chi_tiet 
+    inner join hop_dong on hop_dong.idhop_dong = hop_dong_chi_tiet.idhop_dong
+    where year(hop_dong.Ngay_bat_dau)=2019
+    group by hop_dong_chi_tiet.iddich_vu_di_kem
+    having count(hop_dong_chi_tiet.iddich_vu_di_kem) > 1
+);
   -- query20
 select nv.idnhan_vien,nv.Ho,nv.Ten, nv.email, nv.sdt, nv.ngay_sinh, nv.dia_chi, "nhanvien" as FromTable
 from nhan_vien nv
@@ -181,3 +193,4 @@ delete from khach_hang where khach_hang.id_customer = id;
 END; $$
 DELIMITER ;
 call Sp_1(9);
+
