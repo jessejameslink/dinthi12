@@ -47,7 +47,7 @@ ON Products (productName,productPrice);
 EXPLAIN SELECT * FROM Products;
 -- -------------------------------------------------------------------------------------
 create view getInforProduct as
-select * from products;
+select productCode, productName, productPrice, productStatus from products;
 
 select * from getInforProduct;
 
@@ -72,17 +72,17 @@ BEGIN
   insert into products (productCode,productName,productPrice,productAmount,productDescription,productStatus) values (productCode_p,productName_p,productPrice_p,productAmount_p,productDescription_p,productStatus_p);
 END //
 DELIMITER ;
-call addProduct(); -- chưa truyền tham số
+call demo.addProduct(20, 'pizza', 200, 20, 'abc', ''); 
 
 DELIMITER //
 CREATE PROCEDURE editProduct(in productCode_p int,in productName_p varchar(20))
 BEGIN
-update editProduct
+update products
 set 
 productName = productName_p where productCode = productCode_p;
 END //
 DELIMITER ;
-call editProduct(); -- chưa truyền tham số
+call editProduct(20, 'oero');
 
 DELIMITER //
 CREATE PROCEDURE deleteProduct(in productCode_p int)
@@ -91,4 +91,4 @@ delete from products
 where productCode = productCode_p;
 END //
 DELIMITER ;
-call deleteProduct();
+call deleteProduct(20);
