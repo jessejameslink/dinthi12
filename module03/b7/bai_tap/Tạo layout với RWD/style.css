@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root{
+    --primary-color: #81C3CF;
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:#fff;
+    font-family: 'Poppins';
+    line-height:1.6;
+}
+ul{
+    list-style-type: none;
+     margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+h1,h2{
+    font-weight: 300;
+    line-height:1.2;
+    margin:10px 0;
+}
+.content p{
+    text-align: left;
+}
+
+/*navbar*/
+.navbar{
+    background:var(--primary-color);
+    padding:1em;
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    z-index: 1030;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 4px 0px;
+    height: 60px;
+}
+
+.navbar .logo{
+    text-decoration: none;
+    font-weight: bold;
+    color:#333;
+    font-size: 1.5em;
+}
+
+.navbar nav {
+  display: none;
+}
+
+.navbar .container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu{
+    cursor: pointer;
+}
+
+/* a{
+    color:#444;
+} */
+nav.menu-btn {
+  display: block;
+}
+
+nav{
+    position: fixed;
+    z-index: 1000;
+    width:66%;
+    right:0;
+    top:0;
+    background-color: #333;
+    height:100vh;
+}
+nav ul.primary-nav {
+    margin-top: 5em;
+}
+
+nav li a{
+    color:#fff;
+    
+    display: block;
+  padding: .5em;
+  font-size: 1.3em;
+  text-align: right;
+}
+.navbar a:hover{
+    border-bottom: 2px #fff solid;
+}
+
+.mobile-menu-exit{
+    float: right;
+    margin:.5em;
+    cursor: pointer;
+}
+.hero {
+  text-align: center;
+}
+
+.left-col{
+    background-color:#C0DAE6;
+    width: 100%;  
+    text-align: center;
+}
+
+.right-col{
+    background-color:#C0DAE6;
+        width: 100%;
+}
+
+input, textarea {
+  width: 100%;
+  padding: .8em;
+  margin-bottom: 1em;
+  border-radius: .3em;
+  border: 1px solid gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  border: none;
+  margin-bottom: 5em;
+  border-radius: 5em;
+  display: inline-block;
+  padding: .8em 2em;
+  width: unset;
+  cursor: pointer;
+}
+
+.grid{
+    background-color:#3E5C6A;
+    text-align: center;
+}
+.footer-title{
+    margin:0;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-menu, .mobile-menu-exit {
+    display: none;
+  }
+
+  .navbar .container{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 180px auto;
+    grid-template-columns: 180px auto;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+  }
+
+  .navbar nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+  }
+  
+    .navbar nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .navbar nav a {
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+    .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+ 
+  .navbar nav li.current a {
+    font-weight: bold;
+  }
+   
+  .navbar nav li.go-premium-cta a {
+    color:#333;
+    border: 3px solid #fff;
+    font-weight: bold;
+    border-radius: 5em;
+    margin-top: -.2em;
+  }
+   
+  .navbar nav li.go-premium-cta a:hover {
+    background: #fff;
+    color: black;
+  } 
+  .content {
+      padding: 0 10rem;
+  }
+
+    .right-col {
+    position: relative;
+  }
+  .right-col .contact-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .hero .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
