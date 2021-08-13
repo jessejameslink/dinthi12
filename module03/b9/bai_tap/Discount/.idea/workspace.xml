@@ -7,8 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d6eef59-75b0-4941-8263-6de5ee35aeca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../b7/bai_tap/Tạo giao diện giản lược của trang chủ Facebook/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b7/bai_tap/Tạo giao diện giản lược của trang chủ Facebook/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../b7/bai_tap/Tạo giao diện giản lược của trang chủ Facebook/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b7/bai_tap/Tạo giao diện giản lược của trang chủ Facebook/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b11/bai_tap/QuanLiSanPham/.idea/libraries/mysql_connector_java_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b11/bai_tap/QuanLiSanPham/.idea/libraries/servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../b11/bai_tap/QuanLiSanPham/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b10/bai_tap/Caculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b10/bai_tap/Caculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b10/thuc_hanh/dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b10/thuc_hanh/dictionary/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../b8/bai_tap/Xây dựng Landing Page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b8/bai_tap/Xây dựng Landing Page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/b9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/WEB-INF/classes/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/WEB-INF/classes/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Discount/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discount/CalculatorServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +33,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CalculatorServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/discount_Product.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -30,6 +79,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/web/discount_Product.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/CalculatorServlet.java" />
       </list>
@@ -42,15 +92,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="545" />
+    <option name="x" value="51" />
+    <option name="y" value="45" />
     <option name="width" value="1345" />
     <option name="height" value="1040" />
   </component>
@@ -60,11 +104,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Discount" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Discount" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Discount" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Discount" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
@@ -73,11 +136,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -147,16 +213,20 @@
       <workItem from="1627978494311" duration="1289000" />
       <workItem from="1628079221920" duration="948000" />
       <workItem from="1628169645220" duration="160000" />
+      <workItem from="1628859116474" duration="771000" />
+      <workItem from="1628860030732" duration="790000" />
+      <workItem from="1628861102828" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2397000" />
+    <option name="totallyTimeSpent" value="3962000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.13734777" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.14479026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -165,8 +235,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50230414" side_tool="true" weight="0.2569721" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.325723" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32724506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -194,17 +264,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/CalculatorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="43" />
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculatorServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/discount_Product.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>

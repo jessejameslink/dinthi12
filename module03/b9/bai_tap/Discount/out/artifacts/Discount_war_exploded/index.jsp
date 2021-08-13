@@ -1,27 +1,36 @@
 <%--
   Created by IntelliJ IDEA.
-  User: SQ
-  Date: 8/3/2021
-  Time: 3:14 PM
+  User: Thu Uyen
+  Date: 8/5/2021
+  Time: 8:50 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <html>
 <head>
-  <title>Product Discount Calculator</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>$Title$</title>
 </head>
 <body>
-<h2>Product Discount Calculator</h2>
-<form action="display-discount" method="post">
-  <label>Product Description: </label><br/>
-  <input type="text" name="Product Description" placeholder="Product Description" /><br/>
-  <label>List Price: </label><br/>
-  <input type="text" name="List Price" placeholder="List Price" /><br/>
-  <label>Discount Percent: </label><br/>
-  <input type="text" name="Discount Percent" placeholder="Discount Percent"/><br/>
+<div class="container ">
+    <form action="display-discount" method="post">
+        <div class="form-group">
+            <label >Product Description</label>
+            <input type="text" class="form-control" name="description">
 
-  <input type = "submit" id = "submit" value = "Calculate Discount"/>
-</form>
+        </div>
+        <div class="form-group">
+            <label >List Price </label>
+            <input type="text" class="form-control" name="listPrice">
+        </div>
+        <div class="form-group">
+            <label >Discount Percent</label>
+            <input type="text" class="form-control" name="Discount_Percent" >
+        </div>
+
+        <button type="submit" class="btn btn-primary">Calculate Discount </button>
+    </form>
+</div>
 </body>
 </html>
