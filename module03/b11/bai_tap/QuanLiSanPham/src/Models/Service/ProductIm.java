@@ -18,7 +18,7 @@ public class ProductIm implements ProductService {
     private static final String UPDATE_PRODUCT_ID = "update product set name_Product = ?,price_Product= ?, description_Product =?,manufacturer =? where id = ?;";
     private static final String SELECT_PRODUCT_BY_NAME = "select * from product where name_Product like ?";
 
-    //chưa có tìm kiếm theo tên
+
     @Override
     public boolean insertProduct(Product product) throws SQLException {
         int row = 0;

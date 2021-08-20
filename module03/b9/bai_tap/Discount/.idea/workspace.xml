@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d6eef59-75b0-4941-8263-6de5ee35aeca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../b11/bai_tap/QuanLiSanPham/.idea/libraries/mysql_connector_java_8_0_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../b11/bai_tap/QuanLiSanPham/.idea/libraries/servlet_api_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../b11/bai_tap/QuanLiSanPham/.idea/libraries/taglibs_standard_impl_1_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../b10/bai_tap/Caculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b10/bai_tap/Caculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../b10/thuc_hanh/dictionary/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b10/thuc_hanh/dictionary/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../b8/bai_tap/Xây dựng Landing Page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../b8/bai_tap/Xây dựng Landing Page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/b9.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/WEB-INF/classes/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/WEB-INF/classes/CalculatorServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Discount_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Discount/CalculatorServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Discount/CalculatorServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculatorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CalculatorServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="391">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -93,7 +77,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
+    <option name="x" value="50" />
     <option name="y" value="45" />
     <option name="width" value="1345" />
     <option name="height" value="1040" />
@@ -104,46 +88,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discount" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discount" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Discount" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Discount" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/servletCaseStudy/servlet" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -216,17 +170,18 @@
       <workItem from="1628859116474" duration="771000" />
       <workItem from="1628860030732" duration="790000" />
       <workItem from="1628861102828" duration="4000" />
+      <workItem from="1628909979262" duration="10000" />
+      <workItem from="1628911237015" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3962000" />
+    <option name="totallyTimeSpent" value="3994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.14479026" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49769586" visible="true" weight="0.15290934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -266,8 +221,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CalculatorServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="391">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
