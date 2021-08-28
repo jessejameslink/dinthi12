@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/quanLiSanPham.iml" filepath="$PROJECT_DIR$/quanLiSanPham.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuanLiSanPham.iml" filepath="$PROJECT_DIR$/QuanLiSanPham.iml" />
     </modules>
   </component>
 </project>

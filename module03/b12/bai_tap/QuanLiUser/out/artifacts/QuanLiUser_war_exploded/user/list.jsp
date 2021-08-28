@@ -14,12 +14,13 @@
 </center>
 <div align="center">
     <div>
-        <form action="/users?action=search" method="post">
+        <form action="/users" method="post">
             <div class="input-group">
                 <div class="form-outline">
                     <input type="text" name="search"  id="form1" class="form-control" placeholder="search..."/>
                 </div>
             </div>
+            <input type="hidden" name="action" value="search">
         </form>
     </div>
 

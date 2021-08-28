@@ -13,7 +13,7 @@
     </h2>
 </center>
 <div align="center">
-    <form method="post">
+    <form method="post" action="/users">
         <table border="1" cellpadding="5">
             <caption>
                 <h2>Add New User</h2>
@@ -42,6 +42,7 @@
                 </td>
             </tr>
         </table>
+        <input type="hidden" value="create" name="action">
     </form>
 </div>
 </body>

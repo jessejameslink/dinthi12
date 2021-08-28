@@ -13,16 +13,15 @@
     </h2>
 </center>
 <div align="center">
-    <form method="post">
+    <c:if test="${user != null}">
+    <form method="post" action="/users">
         <table border="1" cellpadding="5">
             <caption>
                 <h2>
                     Edit User
                 </h2>
             </caption>
-            <c:if test="${user != null}">
-                <input type="hidden" name="id" value="<c:out value='${user.id}' />"/>
-            </c:if>
+
             <tr>
                 <th>User Name:</th>
                 <td>
@@ -52,8 +51,12 @@
                     <input type="submit" value="Save"/>
                 </td>
             </tr>
+
         </table>
+        <input type="hidden" name="id" value="<c:out value='${user.id}' />"/>
+        <input type="hidden" name="action" value="edit">
     </form>
+    </c:if>
 </div>
 </body>
 </html>

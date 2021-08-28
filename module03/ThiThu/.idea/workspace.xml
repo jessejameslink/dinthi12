@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ThiThu:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c9a8923-1d93-4e9b-92d3-daf1dbf16c7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/libraries/taglibs_standard_spec_1_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/web/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/.idea/libraries/servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/artifacts/quanLiSanPham_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/artifacts/quanLiSanPham_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/libraries/servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/libraries/taglibs_standard_impl_1_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/WEB-INF/classes/Controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/WEB-INF/classes/Controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/WEB-INF/classes/Models/Bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/WEB-INF/classes/Models/DAO/ConnetDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/WEB-INF/classes/Models/Service/ProductIm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/WEB-INF/classes/Models/Service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/user-form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/artifacts/quanLiSanPham_war_exploded/user-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/production/quanLiSanPham/Controller/ProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/production/quanLiSanPham/Controller/ProductServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/production/quanLiSanPham/Models/Bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/production/quanLiSanPham/Models/DAO/ConnetDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/production/quanLiSanPham/Models/Service/ProductIm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/out/production/quanLiSanPham/Models/Service/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/quanLiSanPham.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/quanLiSanPham.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/src/Controller/ProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/src/Models/Bean/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/src/Models/DAO/ConnetDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/src/Models/Service/ProductIm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/src/Models/Service/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/web/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/web/user-form.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b11/bai_tap/QuanLiSanPham/web/user-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/QuanLiUser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/QuanLiUser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/model/Reponsitory/ConnectDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/model/Service/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/model/Service/UserImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/model/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/model/Reponsitory/ConnectDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/model/Service/IUserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/model/Service/UserImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/out/production/QuanLiUser/model/bean/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/model/Reponsitory/ConnectDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/Reponsitory/ConnectDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/model/Service/IUserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/model/Service/UserImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/model/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/src/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/bai_tap/QuanLiUser/web/user/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/controller/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/WEB-INF/classes/controller/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/artifacts/QuanLiUser_war_exploded/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/production/QuanLiUser/controller/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/production/QuanLiUser/dao/IUserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/production/QuanLiUser/dao/UserDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/out/production/QuanLiUser/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/src/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/src/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/web/user/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../b12/thuc_hanh/QuanLiUser/web/user/list.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/TiecCuoiImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3468">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/DichVu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/TiecCuoiServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="55" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/create.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/reponsitory/ConnectDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bean/TiecCuoi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/service/ITiecCuoi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/reponsitory/ConnectDB.java" />
+        <option value="$PROJECT_DIR$/src/bean/TiecCuoi.java" />
+        <option value="$PROJECT_DIR$/src/service/ITiecCuoi.java" />
+        <option value="$PROJECT_DIR$/web/list.jsp" />
+        <option value="$PROJECT_DIR$/src/test.java" />
+        <option value="$PROJECT_DIR$/src/bean/DichVu.java" />
+        <option value="$PROJECT_DIR$/src/service/TiecCuoiImpl.java" />
+        <option value="$PROJECT_DIR$/web/edit.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/TiecCuoiServlet.java" />
+        <option value="$PROJECT_DIR$/web/create.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/taglibs_standard_spec_1_2_5.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="370" />
+    <option name="y" value="5" />
+    <option name="width" value="1110" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reponsitory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThiThu" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThiThu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.25592417" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.69">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="ThiThu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.69" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.69" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="ThiThu:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_69_ThiThu" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49993" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ThiThu:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.test" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.69" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c9a8923-1d93-4e9b-92d3-daf1dbf16c7e" name="Default Changelist" comment="" />
+      <created>1630117272615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630117272615</updated>
+      <workItem from="1630117277011" duration="19399000" />
+      <workItem from="1630148619010" duration="38000" />
+      <workItem from="1630157075873" duration="208000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="19645000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49922958" visible="true" weight="0.14682002" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5007704" side_tool="true" weight="0.22318527" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33637747" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.52207" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.1826484" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/tomcat/apache-tomcat-8.5.69-windows-x64/apache-tomcat-8.5.69/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="859">
+          <caret line="229" selection-start-line="229" selection-end-line="229" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/TiecCuoiImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3468">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/DichVu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="55" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reponsitory/ConnectDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean/TiecCuoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/service/ITiecCuoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/TiecCuoiServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="111" column="40" selection-start-line="111" selection-start-column="40" selection-end-line="111" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/create.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>taglibs-standard-spec-1.2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25592417" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
